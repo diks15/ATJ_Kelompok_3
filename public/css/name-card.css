@@ -1,0 +1,4 @@
+.gradient-custom {
+    background-color: #eb3b5a;
+    background-image: linear-gradient(315deg, #eb3b5a 0%, #9c27b0 74%);
+  }
