@@ -1,15 +1,13 @@
 <?php
 
-namespace App\Http\Livewire\Atj;
+namespace App\Http\Livewire\Tubes;
 
 use Livewire\Component;
 
 class Idx extends Component
 {
-
     public function render()
     {
-        return view('livewire.atj.idx')->layout('adminlte::page');
+        return view('livewire.tubes.idx')->layout('adminlte::page');
     }
-
 }
