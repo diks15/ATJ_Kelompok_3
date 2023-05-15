@@ -239,6 +239,12 @@ return [
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
+        [
+            'text'       => 'Tubes',
+            'route'      => 'tubes.index',
+            'icon'      => 'far fa-fw fa-file',
+            //'roles'     => ['reviewer', 'committee','author'],
+        ],
 
         [
             'text'       => 'User Management',
