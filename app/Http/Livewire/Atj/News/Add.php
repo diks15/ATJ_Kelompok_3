@@ -26,5 +26,4 @@ class Add extends Component
         $this->newsTitle = '';
         $this->fullText = '';
     }
-
-
+}

@@ -45,3 +45,6 @@ Route::get('/portofolio', [portofolioController::class, 'index'])->name('portofo
 
 //Route menu ATJ
 Route::get('/atj/landing-page', \App\Http\Livewire\Atj\Idx::class)->name('atj.home');
+
+//Route menu Tubes
+Route::get('/tubes/landing-page', \App\Http\Livewire\Tubes\Idx::class)->name('tubes.home');

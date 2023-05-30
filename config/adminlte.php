@@ -239,13 +239,13 @@ return [
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
-
         [
-            'text'       => 'User Management',
-            'route'      => 'arsys.admin.user',
+            'text'       => 'TUBES',
+            'route'      => 'tubes.home',
             'icon'      => 'far fa-fw fa-file',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
+
 
         [
             'text'       => 'Institution',
