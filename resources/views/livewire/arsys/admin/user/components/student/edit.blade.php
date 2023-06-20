@@ -43,7 +43,7 @@
                                     @endforeach
                                 </x-adminlte-select2>
                                 @error('studentSpecializationEdit') <span class="text-danger">{{ $message }}</span><br> @enderror
-                            </div>  
+                            </div>
                             <div class="col-md-5">
                                 <x-adminlte-select2 label="Supervisor" style="width: 100%" wire:model="studentSupervisorEdit" id="studentSupervisorEdit" name="studentSupervisorEdit">
                                     <option default>Please select the supervisor</option>
@@ -52,13 +52,13 @@
                                     @endforeach
                                 </x-adminlte-select2>
                                 @error('studentSupervisorEdit') <span class="text-danger">{{ $message }}</span><br> @enderror
-                            </div>  
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6" >
                                 <x-adminlte-input placeholder="First name" wire:model="firstName" name="firstName" label="First name" style="width: 100%"/>
                                 @error('firstName') <span class="text-danger">{{ $message }}</span><br> @enderror
-            
+
                             </div>
                             <div class="col-md-6">
                                 <x-adminlte-input placeholder="Last name" wire:model="lastName" name="lastName" label="Last name" style="width: 100%"/>
@@ -128,5 +128,5 @@
             });
             });
         </script>
-    @endpush    
+    @endpush
 </div>

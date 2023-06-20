@@ -1,5 +1,5 @@
 <div>
-    
+
     <div class="row">
         <div class="col-md-12 text-leftt">
             <div x-data="{addStudentEnable : @entangle('addStudentEnable') }">
@@ -32,14 +32,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                     
                         @forelse ($students as $index => $student)
                             @if($index%2 ==0 )
                                 <tr class="bg-light" style="cursor: pointer" wire:click="expandView({{$index}}, {{$student->id}})">
                             @else
                                 <tr style="cursor: pointer" wire:click="expandView({{$index}}, {{$student->id}})">
                             @endif
-                                
+
                                     <td> {{$index+1}}</td>
                                 @if(!$enabledExpandView[$index])
                                     <td>
@@ -64,7 +63,7 @@
                                             {{$student->supervisor->last_name}}
                                         @endif
                                     </td>
-                                    
+
                                 @else
                                     <td colspan="7" >
                                         <div class="text-center">
@@ -79,7 +78,7 @@
                                 @if($enabledExpandView[$index])
                                     <td colspan="8">
                                         @livewire('arsys.admin.user.components.student.view')
-                                        
+
                                     </td>
                                 @endif
                             </tr>

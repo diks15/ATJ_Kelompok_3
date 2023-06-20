@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Arsys</b>2023',
+    'logo' => '<b>KEL 3</b>-2023',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -127,9 +127,9 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
+    'classes_sidebar' => 'sidebar-light-primary elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-white navbar-light',
+    'classes_topnav' => 'navbar-info navbar-dark',
     'classes_topnav_nav' => 'navbar-expand',
     'classes_topnav_container' => 'container',
 
@@ -228,36 +228,38 @@ return [
         [
             'text'       => 'ATJ',
             'route'      => 'atj.home',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-circle',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
         [
             'text'       => 'Portofolio',
             'route'      => 'adminlte.page',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-circle',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
-
+        [
+            'text'       => 'User Management',
+            'route'      => 'arsys.admin.user',
+            'icon'      => 'far fa-fw fa-circle',
+            //'roles'     => ['reviewer', 'committee','author'],
+        ],
         [
             'text'       => 'TUBES',
             'route'      => 'tubes.home',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-circle',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
-
-
         [
             'text'       => 'Institution',
             'route'      => 'arsys.admin.config.institution',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-circle',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
-
         [
             'text'       => 'Log out',
             'route'        => 'user.refresh',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-circle',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
     ],
