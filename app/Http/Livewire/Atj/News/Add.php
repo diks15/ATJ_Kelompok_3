@@ -8,6 +8,7 @@ use App\Models\Atj\News;
 class Add extends Component
 {
     public $newsTitle, $fullText;
+
     public function render()
     {
         return view('livewire.atj.news.add');
@@ -26,6 +27,4 @@ class Add extends Component
         $this->newsTitle = '';
         $this->fullText = '';
     }
-
-
 }

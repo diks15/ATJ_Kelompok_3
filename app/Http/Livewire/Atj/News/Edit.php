@@ -7,6 +7,7 @@ use App\Models\Atj\News;
 
 class Edit extends Component
 {
+
     public $newsId = null;
     public $title = null;
     public $fullText = null;

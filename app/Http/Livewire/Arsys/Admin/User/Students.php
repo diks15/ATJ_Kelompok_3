@@ -25,9 +25,9 @@ class Students extends Component
             $this->enabledExpandView[$this->viewIndex] = true;
             $this->enabledExpandView[$this->tempIndex] = false;
             $this->tempIndex = $this->viewIndex;
-        }     
+        }
         $students = Student::orderBy('student_id', 'DESC')->paginate(25);
-        
+
         if($this->pageNumber != $students->currentPage()){
             foreach($students as $index => $student){
                 $this->enabledExpandView[$index] = false;
