@@ -44,7 +44,7 @@
                         @endforeach
                     </x-adminlte-select2>
                     @error('studentSpecialization') <span class="text-danger">{{ $message }}</span><br> @enderror
-                </div>  
+                </div>
                 <div class="col-md-5">
                     <x-adminlte-select2 label="Supervisor" style="width: 100%" wire:model="studentSupervisor" id="studentSupervisor" name="studentSupervisor">
                         <option default>Please select the supervisor</option>
@@ -53,7 +53,7 @@
                         @endforeach
                     </x-adminlte-select2>
                     @error('studentSupervisor') <span class="text-danger">{{ $message }}</span><br> @enderror
-                </div>  
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-6" >
@@ -125,5 +125,5 @@
                 });
             });
         </script>
-    @endpush       
+    @endpush
 </div>
